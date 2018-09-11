@@ -1,4 +1,4 @@
-# simple_dns_server
+# Simple dns server
 Simple dns server for A records without recursion. Source is by an executable
 
 Run the dnsserver executable with the following:  
