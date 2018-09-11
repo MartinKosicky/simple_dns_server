@@ -1,5 +1,5 @@
 # Simple dns server
-Simple dns server for A records without recursion. Source is by an executable
+Simple dns server for A records without recursion. IP/HOST list is cached by periodically calling some executable with arguments on the command line. Currently this deals only with the basic A records, 1 question in lookup gives 1 answer if any.
 
 Run the dnsserver executable with the following:  
 `dnsserver command [arguments...] `
